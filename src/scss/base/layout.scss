@@ -1,0 +1,31 @@
+:root {
+  font-family: var(--regular-font);
+  line-height: 1.2;
+  font-size: 1rem;
+  color: #000;
+  background-color: #fff;
+  //background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+#_superpaperclips_1mm2_3 {
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: var(--bold-font);
+  font-size: 4rem;
+}
