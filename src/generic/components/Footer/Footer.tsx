@@ -1,6 +1,6 @@
 import { version } from "../../../../package.json";
 
-import styles from "./Footer.module.scss";
+import styles from "@/generic/components/Footer/Footer.module.scss";
 
 export const Footer = () => {
   return (

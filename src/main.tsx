@@ -1,7 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+
 import { version } from "../package.json";
-import App from "./App.tsx";
+
+import App from "@/App.tsx";
 
 createRoot(document.getElementById("_superpaperclips_1mm2_3")!).render(
   <StrictMode>

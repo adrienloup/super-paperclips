@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import styles from "./Home.module.scss";
+import { Button } from "@/generic/components/Button/Button";
+
+import styles from "@/pages/Home/Home.module.scss";
 
 function HomePage() {
   const [count, setCount] = useState(0);
@@ -19,6 +21,7 @@ function HomePage() {
         <br />
         <Link to="/super-paperclips/help">Help</Link>
       </div>
+      <Button />
     </div>
   );
 }
