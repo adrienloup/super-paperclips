@@ -46,7 +46,7 @@ export default defineConfig({
   base: "/super-paperclips",
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      "@": path.resolve("./src"),
     },
   },
 });
