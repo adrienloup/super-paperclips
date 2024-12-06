@@ -11,7 +11,7 @@ createRoot(document.getElementById("_superpaperclips_1mm2_3")!).render(
 
 console.log(
   `%c[SP]%c${version}%c@jff`,
-  "padding: 4px 3px 3px; background: #1d1d1f; font-weight: bold; color: #fff;",
-  "padding: 4px 3px 3px; background: #fff; font-weight: bold; color: #1d1d1f;",
-  "padding: 4px 3px 3px; background: #1d1d1f; font-weight: bold; color: #fff;"
+  "padding: 4px 3px 3px; background: #1d1d1f; font-weight: bold; color: #f5f5f7;",
+  "padding: 4px 3px 3px; background: #f5f5f7; font-weight: bold; color: #1d1d1f;",
+  "padding: 4px 3px 3px; background: #1d1d1f; font-weight: bold; color: #f5f5f7;"
 );
