@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 //import { Page } from "@/generic/components/page/Page";
+import { Header } from "@/generic/components/header/Header";
 import { Production } from "@/game/components/production/Production";
 
 import styles from "@/game/page/Game.module.scss";
@@ -8,6 +9,7 @@ import styles from "@/game/page/Game.module.scss";
 function Game() {
   return (
     <div>
+      <Header />
       <h1 className={styles.title}>
         Un trombone. Deux trombones. Trois trombones…
       </h1>
