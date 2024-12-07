@@ -5,7 +5,7 @@ import { Production } from "@/game/components/production/Production";
 
 import styles from "@/game/page/Game.module.scss";
 
-function HomePage() {
+function Game() {
   return (
     <Page>
       <h1 className={styles.title}>
@@ -21,4 +21,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Game;
