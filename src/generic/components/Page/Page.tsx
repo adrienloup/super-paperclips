@@ -1,8 +1,8 @@
 import { Children } from "@/generic/models/Children";
 
-import { Header } from "@/generic/components/Header/Header";
-import { Main } from "@/generic/components/Main/Main";
-import { Footer } from "@/generic/components/Footer/Footer";
+import { Header } from "@/generic/components/header/Header";
+import { Main } from "@/generic/components/main/Main";
+import { Footer } from "@/generic/components/footer/Footer";
 
 export const Page = ({ children }: { children: Children }) => {
   return (

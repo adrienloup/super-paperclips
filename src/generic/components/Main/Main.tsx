@@ -1,6 +1,6 @@
 import { Children } from "@/generic/models/Children";
 
-import styles from "@/generic/components/Main/Main.module.scss";
+import styles from "@/generic/components/main/Main.module.scss";
 
 export const Main = ({ children }: { children: Children }) => {
   return (

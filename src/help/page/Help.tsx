@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function HelpPage() {
+function Help() {
   return (
     <div>
       <h1>Help</h1>
@@ -13,4 +13,4 @@ function HelpPage() {
   );
 }
 
-export default HelpPage;
+export default Help;

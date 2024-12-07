@@ -1,18 +1,13 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import { Button } from "@/generic/components/Button/Button";
+import { Page } from "@/generic/components/page/Page";
+import { Production } from "@/game/components/production/Production";
 
-import styles from "@/pages/Home/Home.module.scss";
+import styles from "@/game/page/Game.module.scss";
 
 function HomePage() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div>
-      <button onClick={() => setCount((count) => count + 1)}>
-        count is {count}
-      </button>
+    <Page>
       <h1 className={styles.title}>
         Un trombone. Deux trombones. Trois trombones…
       </h1>
@@ -21,8 +16,8 @@ function HomePage() {
         <br />
         <Link to="/super-paperclips/help">Help</Link>
       </div>
-      <Button />
-    </div>
+      <Production />
+    </Page>
   );
 }
 
