@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { Production } from "@/game/components/production/Production";
 // import { Header } from "../../generic/components/header/Header";
 
-import styles from "@/game/page/Game.module.scss";
 import { Button } from "@/generic/components/button/Button";
+import styles from "@/game/page/Game.module.scss";
 
 function Game() {
   return (
