@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 
-import { Page } from "@/generic/components/page/Page";
+//import { Page } from "@/generic/components/page/Page";
 import { Production } from "@/game/components/production/Production";
 
 import styles from "@/game/page/Game.module.scss";
 
 function Game() {
   return (
-    <Page>
+    <div>
       <h1 className={styles.title}>
         Un trombone. Deux trombones. Trois trombones…
       </h1>
@@ -17,7 +17,7 @@ function Game() {
         <Link to="/super-paperclips/help">Help</Link>
       </div>
       <Production />
-    </Page>
+    </div>
   );
 }
 
