@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 //import { Page } from "@/generic/components/page/Page";
 import { Production } from "@/game/components/production/Production";
-import { Header } from "../../generic/components/header/Header";
+// import { Header } from "../../generic/components/header/Header";
 
 import styles from "@/game/page/Game.module.scss";
 import { Button } from "../components/button/Button";
@@ -20,7 +20,7 @@ function Game() {
       </div>
       <Production />
       <Button />
-      <Header />
+      {/* <Header /> */}
     </div>
   );
 }
