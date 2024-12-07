@@ -5,7 +5,7 @@ import { Production } from "@/game/components/production/Production";
 // import { Header } from "../../generic/components/header/Header";
 
 import styles from "@/game/page/Game.module.scss";
-import { Button } from "../button/Button";
+import { Button } from "@/game/button/Button";
 
 function Game() {
   return (
